@@ -1,0 +1,31 @@
+.audioControls {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: #ece7e7;
+}
+
+.controlButton{
+  margin: 0 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.timeline {
+  width: 100px;
+  flex: 1;
+  height: 5px;
+  background-color: #aca2a2;
+  margin: 0 10px;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.timelineProgress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #007bff;
+}

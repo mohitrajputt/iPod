@@ -1,0 +1,215 @@
+.IpodBody{
+    width: 350px;
+    height: 500px;
+    background: url('../public/Ipod.png') no-repeat;
+    background-size: contain;
+    filter: drop-shadow(0 25px 25px #9b9b9b);
+    position: relative;
+    overflow: hidden;
+}
+
+.IpodDisplay{
+    position: relative;
+    top: 32px;
+    left: 61px;
+    width: 225px;
+    height: 170px;
+    background: url('../public/wallpaper.jpg');
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    border-radius: 2px;
+}
+
+.IpodMenu{
+    background-color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.IpodHeader{
+    width: 100%;
+    height: 40px;
+}
+
+.IpodListItems li{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    width: 100%;
+    height: 26px;
+    padding: 3px;
+    font-size: 0.8rem;
+    line-height: 18px;
+    text-indent: 2px;
+    list-style: none;
+}
+
+/* .IpodListItems li:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+} */
+
+.IpodListItems li:active{
+    opacity: 0.7;
+}
+
+.IpodListItems li:hover > .more{
+    display: block;
+}
+
+#more{
+    display: none;
+    float: right;
+    margin-top: 1px;
+    margin-right: 4px;
+    font-size: 0.6rem;
+}
+
+.back{
+    position: absolute;
+    bottom: 0;
+    left: 12px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<  >>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.IpodGames, .IpodSetting, .IpodCoverFlow{
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgContainer, .gameContainer{
+    position: relative;
+}
+
+.gameContainer::after{
+    content: "Games";
+    display: block;
+    position: absolute;
+}
+
+.imgContainer::after{
+    content: "Settings";
+    display: block;
+    position: absolute;
+}
+
+.musicPlayer{
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.musicContent{
+    display: flex;
+    /* align-items: center; */
+    width: 100%;
+    height: 70%;
+}
+
+.musicContent div{
+    margin: 18px 8px 4px 8px;
+}
+
+.musicImage{
+    width: 80px;
+    height: 80px;
+}
+  
+.musicImage img{
+    width: 100%;
+}
+
+.aboutMusic p{
+    font-size: 0.7rem;
+}
+  
+.close{
+    position: absolute;
+    top: 3px;
+    right: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Controller */
+
+.controller{
+    /* border: 0.1px solid blue; */
+    width: 167px;
+    height: 167px;
+    position: relative;
+    top: 76px;
+    left: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.rotateCircle{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.rotateCircle button{
+    position: absolute;
+    /* border: 1px solid blue; */
+    color: red;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+}
+
+.selectButton{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+}
+
+.menuButton{
+    left: 35%;
+    width: 50px;
+    height: 25px;
+}
+
+.previousButton{
+    top: 43%;
+    left: 3px;
+    width: 30px;
+    height: 25px;
+}
+
+.nextButton{
+    top: 43%;
+    right: 3px;
+    width: 30px;
+    height: 25px;
+}
+
+.playPauseButton{
+    bottom: 0;
+    left: 40%;
+    width: 30px;
+    height: 25px;
+}
