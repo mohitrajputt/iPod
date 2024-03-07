@@ -12,9 +12,9 @@ This project is a mini replica of the iPod interface built using React.js. It mi
 
 ## Demo
 
-![Demo GIF](demo.gif)
+![Demo GIF](https://github.com/mohitrajputt/iPod/blob/ee5608ab817877dcb13428aed1f2f2b574cce585/public/ipod_gif.gif)
 
-[Live Demo](#) - *Link will be updated*
+[Live Demo](#) -  https://mohitrajputt.github.io/iPod/
 
 ## Installation
 
