@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/iPod/static/css/main.20660461.css",
+    "main.js": "/iPod/static/js/main.390b688c.js",
+    "static/media/Ipod.png": "/iPod/static/media/Ipod.ceeda73906855738e48b.png",
+    "static/media/wallpaper.jpg": "/iPod/static/media/wallpaper.6046ffd86a6e20277b11.jpg",
+    "index.html": "/iPod/index.html",
+    "main.20660461.css.map": "/iPod/static/css/main.20660461.css.map",
+    "main.390b688c.js.map": "/iPod/static/js/main.390b688c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20660461.css",
+    "static/js/main.390b688c.js"
+  ]
+}
